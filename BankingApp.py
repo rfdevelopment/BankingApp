@@ -165,6 +165,7 @@ while(cont == False):
     print("--------------------------------------")
     print("D - Make Deposit")
     print("W - Make Withdrawl")
+    print("T - Transfer Funds")
     print("A - Apply monthly fee and interest gains")
     print("X - Exit")
     print(">")
@@ -180,6 +181,8 @@ while(cont == False):
         init_fees_n_interest(checking_acct, savings_acct)
     elif(cmd == "X"):
         exit()
+    elif(cmd == "T"):
+        print("Feature not active yet")
     else:
         print("Invalid Command.")
 
